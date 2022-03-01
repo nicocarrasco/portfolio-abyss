@@ -29,6 +29,22 @@ const Text = styled.h2`
   font-size: 24px;
   font-weight: 500;
   color: ${({ theme }) => theme.colors.textPrimary};
+
+  @media only screen and (max-device-width: 850px) {
+    max-width: 35ch;
+  }
+
+  @media only screen and (max-device-width: 650px) {
+    margin-top: 70px;
+    font-size: 20px;
+    max-width: 30ch;
+  }
+
+  @media only screen and (max-device-width: 450px) {
+    margin-top: 40px;
+    font-size: 18px;
+    max-width: 20ch;
+  }
 `;
 
 const Waves = styled.div`
