@@ -7,6 +7,9 @@ declare module "styled-components" {
       sky: string;
       wave: string;
       abyss: string;
+      coral: string;
+      coralDarken: string;
+      violet: string;
     };
   }
 }

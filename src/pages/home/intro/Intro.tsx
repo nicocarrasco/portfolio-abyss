@@ -6,11 +6,13 @@ import waves from "../../../assets/waves.svg";
 const Intro = () => {
   return (
     <Container>
-      <Text>
-        Bienvenue ! Prenez une grande inspiration et venez explorez les
-        profondeurs. Peut-être atteindrez-vous le fond de l’abysse...
-      </Text>
-      <Waves />
+      <Wrapper>
+        <Text>
+          Bienvenue ! Prenez une grande inspiration et venez explorez les
+          profondeurs. Peut-être atteindrez-vous le fond de l’abysse...
+        </Text>
+        <Waves />
+      </Wrapper>
     </Container>
   );
 };
@@ -18,8 +20,16 @@ const Intro = () => {
 const Container = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+`;
+
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
   background-color: ${({ theme }) => theme.colors.sky};
 `;
 
@@ -49,8 +59,8 @@ const Text = styled.h2`
 
 const Waves = styled.div`
   aspect-ratio: 960 / 300;
-  width: 100%;
-  background-repeat: repeat;
+  width: 101%;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-image: url(${waves});
