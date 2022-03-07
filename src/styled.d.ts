@@ -6,7 +6,8 @@ declare module "styled-components" {
       textPrimary: string;
       sky: string;
       wave: string;
-      abyss: string;
+      abyss1stFloor: string;
+      abyss2ndFloor: string;
       coral: string;
       coralDarken: string;
       violet: string;
