@@ -36,7 +36,7 @@ const Competencies = () => {
     rows.push(
       <CompetenciesWrapper>
         {lineCompetencies.map((lineCompetencie) => (
-          <>
+          <CompetencieWrapper>
             <StyledCompetencie
               src={lineCompetencie.url}
               alt={lineCompetencie.url}
@@ -45,33 +45,54 @@ const Competencies = () => {
               data-for={lineCompetencie.name}
             />
             <StyledTooltip id={lineCompetencie.name} effect="solid" />
-          </>
+          </CompetencieWrapper>
         ))}
       </CompetenciesWrapper>
     );
   }
 
-  return <Container>{rows}</Container>;
+  return (
+    <Container>
+      <CompetenciesWrapper>
+        {competencies.map((lineCompetencie) => (
+          <CompetencieWrapper>
+            <StyledCompetencie
+              src={lineCompetencie.url}
+              alt={lineCompetencie.url}
+              key={lineCompetencie.url}
+              data-tip={lineCompetencie.name}
+              data-for={lineCompetencie.name}
+            />
+            <StyledTooltip id={lineCompetencie.name} effect="solid" />
+          </CompetencieWrapper>
+        ))}
+      </CompetenciesWrapper>
+    </Container>
+  );
 };
 
 const Container = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
 `;
 
 const CompetenciesWrapper = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 100%;
+  max-width: 700px;
+`;
 
-  img {
-    margin: 40px 40px;
-  }
+const CompetencieWrapper = styled.div`
+  display: flex;
+  height: 80px;
+  width: 80px;
+  margin: 40px 40px;
 `;
 
 const StyledCompetencie = styled.img`
-  height: 80px;
+  max-height: 100%;
   transition: filter 0.15s ease-in-out;
   filter: opacity(0.7) grayscale(1)
     drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.2));
