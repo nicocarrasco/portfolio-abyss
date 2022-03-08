@@ -37,7 +37,7 @@ const FirstFloor = styled.div`
 `;
 
 const SecondFloorSeparation = styled.div`
-  aspect-ratio: 900 / 250;
+  aspect-ratio: 900 / 180;
   width: 101%;
   background-repeat: repeat;
   background-position: center;
@@ -51,7 +51,7 @@ const SecondFloor = styled.div`
 `;
 
 const ThirdFloorSeparation = styled.div`
-  aspect-ratio: 900 / 250;
+  aspect-ratio: 900 / 180;
   width: 101%;
   background-repeat: repeat;
   background-position: center;

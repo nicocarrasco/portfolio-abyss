@@ -22,7 +22,7 @@ const Presentation = () => {
         <PresWrapper>
           <Blob />
           <PresText>
-            Développeur front-end en 4ème année de l’école d’informatique
+            Développeur et étudiant en 4ème année de l’école d’informatique
             Epitech
           </PresText>
         </PresWrapper>
@@ -40,25 +40,21 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 200px;
   padding: 0 13vw;
 `;
 
 const InfoWrapper = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-bottom: 80px;
-
-  @media only screen and (max-device-width: 950px) {
-    flex-direction: column;
-  }
+  margin-bottom: 40px;
 `;
 
 const PhotoItemWrapper = styled.div`
   display: flex;
-  margin-right: 170px;
+  margin-right: 200px;
   width: 200px;
   height: 200px;
   position: relative;

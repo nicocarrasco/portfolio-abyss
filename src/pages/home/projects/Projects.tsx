@@ -92,7 +92,7 @@ const Projects = () => {
 };
 
 const Container = styled.div`
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 `;
 
 const ProjectWrapper = styled.div<{ position: "left" | "right" }>`
@@ -102,7 +102,7 @@ const ProjectWrapper = styled.div<{ position: "left" | "right" }>`
     position === "left" ? "row" : "row-reverse"};
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 50px;
+  margin-bottom: 50px;
 `;
 
 const ImageWrapper = styled.div`
