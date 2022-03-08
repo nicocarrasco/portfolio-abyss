@@ -7,6 +7,7 @@ const theme = (): DefaultTheme => ({
     wave: "#3BEAF5",
     abyss1stFloor: "#1A5082",
     abyss2ndFloor: "#143f67",
+    abyss3rdFloor: "#103252",
     coral: "#FF7F50",
     coralDarken: "#FF7442",
     violet: "#A09BE7",

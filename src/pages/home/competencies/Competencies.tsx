@@ -19,7 +19,7 @@ type Competencie = {
 const competencies: Competencie[] = [
   { name: "React JS/Native", url: react },
   { name: "Angular 5", url: angular },
-  { name: "Pyton", url: python },
+  { name: "Python", url: python },
   { name: "C", url: c },
   { name: "Ionic", url: ionic },
   { name: "Wordpress", url: wordpress },
