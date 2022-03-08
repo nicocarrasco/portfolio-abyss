@@ -9,6 +9,7 @@ declare module "styled-components" {
       abyss1stFloor: string;
       abyss2ndFloor: string;
       abyss3rdFloor: string;
+      void: string;
       coral: string;
       coralDarken: string;
       violet: string;

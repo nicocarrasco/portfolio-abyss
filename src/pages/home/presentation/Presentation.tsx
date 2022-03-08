@@ -28,7 +28,7 @@ const Presentation = () => {
         </PresWrapper>
       </InfoWrapper>
       <CvWrapper>
-        <CvFish href={cv} target="_blank">
+        <CvFish href={cv} target="_blank" rel="noopener noreferrer">
           <CvText>Mon Cv</CvText>
         </CvFish>
       </CvWrapper>

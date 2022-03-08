@@ -8,6 +8,7 @@ import Projects from "./projects/Projects";
 
 import secondFloor from "../../assets/abyss_second_floor.svg";
 import thirdFloor from "../../assets/abyss_third_floor.svg";
+import Footer from "./footer/Footer";
 
 const Home = () => {
   return (
@@ -24,6 +25,8 @@ const Home = () => {
       <ThirdFloor>
         <Projects />
       </ThirdFloor>
+      <Separator />
+      <Footer />
     </>
   );
 };
@@ -59,6 +62,13 @@ const ThirdFloorSeparation = styled.div`
 const ThirdFloor = styled.div`
   background-color: ${({ theme }) => theme.colors.abyss3rdFloor};
   overflow-x: hidden;
+`;
+
+const Separator = styled.div`
+  filter: ${({ theme }) => `drop-shadow(0 0 8px ${theme.colors.violet})`};
+  height: 5px;
+  width: 100%;
+  background-color: ${({ theme }) => theme.colors.violet};
 `;
 
 export default Home;

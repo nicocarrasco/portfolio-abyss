@@ -76,7 +76,9 @@ const Projects = () => {
   );
 };
 
-const Container = styled.div``;
+const Container = styled.div`
+  margin-bottom: 100px;
+`;
 
 const ProjectWrapper = styled.div<{ position: "left" | "right" }>`
   display: flex;
