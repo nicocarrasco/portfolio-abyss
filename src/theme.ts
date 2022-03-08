@@ -3,6 +3,7 @@ import { DefaultTheme } from "styled-components";
 const theme = (): DefaultTheme => ({
   colors: {
     textPrimary: "#FFFFFF",
+    textSecondary: "#919191",
     sky: "#87CEEB",
     wave: "#3BEAF5",
     abyss1stFloor: "#1A5082",

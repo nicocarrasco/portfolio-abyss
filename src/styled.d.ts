@@ -4,6 +4,7 @@ declare module "styled-components" {
   export interface DefaultTheme {
     colors: {
       textPrimary: string;
+      textSecondary: string;
       sky: string;
       wave: string;
       abyss1stFloor: string;

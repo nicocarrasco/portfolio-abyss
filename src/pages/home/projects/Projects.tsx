@@ -12,31 +12,45 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Imparato",
+    title: "Machine learning (apprentissage)",
+    date: "Janvier 2022 - Mars 2022",
+    description:
+      "Apprentissage et création d'algorithmes de ML en Python uniquement avec les libraires standards ainsi que pandas et numpy.\n\nLes algorithmes que j'ai reproduit sont : Naives Bayes Classifier, Decision Tree Classifier et un Neural Network. Ces algorithmes ont été réalisé en tant que projet d'apprentissage lors de ma 4ème année à Epitech.",
+  },
+
+  {
+    title: "Imparato (stage)",
     date: "Novembre 2020 - Juillet 2021",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.\n\nFacere sit eligendi amet mollitia fuga nulla nam? Iure, sed. Qui maxime labore mollitia molestiae porro nemo minima impedit reiciendis incidunt consequuntur, recusandae, obcaecati, quasi modi facilis facere tempora. Alias doloremque dolore commodi neque totam in officiis ad nostrum sed blanditiis laborum quae, autem dolorem praesentium quas necessitatibus assumenda corporis? Eaque corrupti recusandae eligendi, illum totam rem laudantium minima laboriosam maiores, quaerat nam, nemo explicabo incidunt. Omnis cumque maxime perferendis dolorum inventore illo temporibus molestias totam? Incidunt quam voluptatibus rem architecto enim.",
+      "Stage de 5 mois en alternance puis de 3 mois en temps plein réalisé chez Imparato, application visant à aider les comédiens à répéter leurs textes.\n\nOutre la correction de bug et l'amélioration de l'UI/UX, j'ai participé à la création de nouvelles fonctionnalités sur l'app web et mobile comme par exemple l'ajout de notes et de marque-pages sur les textes ou encore l'implémentation des bruitages sur l'application.\n\nLes technos utilisées étaient React Js et React Native.",
   },
 
   {
-    title: "Imparato",
-    date: "Novembre 2020z - Juillet 2021",
+    title: "Area (apprentissage)",
+    date: "Janvier 2021 - Mars 2021",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.\n\nFacere sit eligendi amet mollitia fuga nulla nam? Iure, sed. Qui maxime labore mollitia molestiae porro nemo minima impedit reiciendis incidunt consequuntur, recusandae, obcaecati, quasi modi facilis facere tempora. Alias doloremque dolore commodi neque totam in officiis ad nostrum sed blanditiis laborum quae, autem dolorem praesentium quas necessitatibus assumenda corporis? Eaque corrupti recusandae eligendi, illum totam rem laudantium minima laboriosam maiores, quaerat nam, nemo explicabo incidunt. Omnis cumque maxime perferendis dolorum inventore illo temporibus molestias totam? Incidunt quam voluptatibus rem architecto enim.",
+      "Projet réalisé à 6 étudiants pour reproduire le fonctionnement d'un site comme Zapier: permettre à un utilisateur de connecter différents services afin d'automatiser des actions entre elles (par exemple, lorsque l'utilisateur crée une nouvelle PR sur Github, cela crée une nouvelle tâche au nom de la PR sur son Trello).\n\n J'ai travaillé sur l'interface web ainsi que sur le serveur (authentification et webhooks).\n\nLes technos que j'ai utilisé étaient React Js et Node Js.",
   },
 
   {
-    title: "Futbak",
-    date: "Novembre 2020 - Juillet 2021",
+    title: "Arcade (apprentissage)",
+    date: "Mars 2020 - Avril 2020",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.\n\nFacere sit eligendi amet mollitia fuga nulla nam? Iure, sed. Qui maxime labore mollitia molestiae porro nemo minima impedit reiciendis incidunt consequuntur, recusandae, obcaecati, quasi modi facilis facere tempora. Alias doloremque dolore commodi neque totam in officiis ad nostrum sed blanditiis laborum quae, autem dolorem praesentium quas necessitatibus assumenda corporis? Eaque corrupti recusandae eligendi, illum totam rem laudantium minima laboriosam maiores, quaerat nam, nemo explicabo incidunt. Omnis cumque maxime perferendis dolorum inventore illo temporibus molestias totam? Incidunt quam voluptatibus rem architecto enim.",
+      'J\'ai développé avec 2 autres étudiants une plateforme de jeu qui peut changer de style graphique en cours de jeu. Les jeux disponibles sont "Pacman" et "Snake". Les libraries graphiques utilisées sont la SFML, la SDL et la Ncurses.\n\nCe projet a été réalisé en Cpp au cours de la 2ème année à Epitech.',
   },
 
   {
-    title: "Imparato",
-    date: "Novembre 2020s - Juillet 2021",
+    title: "Sportbak (stage)",
+    date: "Septembre 2019 - Décembre 2019",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.\n\nFacere sit eligendi amet mollitia fuga nulla nam? Iure, sed. Qui maxime labore mollitia molestiae porro nemo minima impedit reiciendis incidunt consequuntur, recusandae, obcaecati, quasi modi facilis facere tempora. Alias doloremque dolore commodi neque totam in officiis ad nostrum sed blanditiis laborum quae, autem dolorem praesentium quas necessitatibus assumenda corporis? Eaque corrupti recusandae eligendi, illum totam rem laudantium minima laboriosam maiores, quaerat nam, nemo explicabo incidunt. Omnis cumque maxime perferendis dolorum inventore illo temporibus molestias totam? Incidunt quam voluptatibus rem architecto enim.",
+      "Stage à temps plein réalisé chez Sportbak, application permettant aux joueurs de footsalle de récolter et visualiser leurs stats individuelles et collectives sur un match.\n\nAu cours de mon stage chez Sportbak j'ai travaillé sur la création de ligues et des tournois de footsalle sur l'application ainsi que la visualisation des statistiques des joueurs lors de ces ligues et tournois.\n\nLes technos utilisées étaient Ionic et Angular5.",
+  },
+
+  {
+    title: "Hexacoffre (stage)",
+    date: "Juillet 2019",
+    description:
+      "Stage à temps plein réalisé chez Hexacoffre, entreprise de coffre-fort.\n\nLors de ce stage j'ai réalisé un site vitrine pour Hexacoffre spécialement conçu pour présenter ses services à la région Parisienne.\n\nLa technologie utilisée était Wordpress.",
   },
 ];
 
@@ -67,6 +81,7 @@ const Projects = () => {
             </ImageWrapper>
             <DescriptionWrapper>
               <Title position={position}>{project.title}</Title>
+              <ProjectDate>{project.date}</ProjectDate>
               <Description>{project.description}</Description>
             </DescriptionWrapper>
           </ProjectWrapper>
@@ -143,6 +158,7 @@ const DescriptionWrapper = styled.div`
 `;
 
 const Title = styled.h2<{ position: "left" | "right" }>`
+  margin-bottom: 3px;
   font-size: 32px;
   color: ${({ position, theme }) =>
     position === "left" ? theme.colors.wave : theme.colors.violet};
@@ -185,6 +201,12 @@ const Title = styled.h2<{ position: "left" | "right" }>`
         `0 0 2px hsl(0 0% 100% / 0.3), 0 0 7px ${theme.colors.violet}`};
     }
   }
+`;
+
+const ProjectDate = styled.p`
+  margin-top: 0;
+  margin-bottom: 32px;
+  color: ${({ theme }) => theme.colors.textSecondary};
 `;
 
 const Description = styled.p`
