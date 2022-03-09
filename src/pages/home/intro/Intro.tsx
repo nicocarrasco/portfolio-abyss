@@ -3,7 +3,18 @@ import styled from "styled-components";
 
 import waves from "../../../assets/waves.svg";
 
-const Intro = () => {
+type Props = {
+  setLoaded: (loaded: boolean) => void;
+};
+
+const Intro = ({ setLoaded }: Props) => {
+  // Show page only when Waves Svg is loaded
+  const image = document.createElement("img");
+  image.src = waves;
+  image.onload = () => {
+    setLoaded(true);
+  };
+
   return (
     <Container>
       <Wrapper>
