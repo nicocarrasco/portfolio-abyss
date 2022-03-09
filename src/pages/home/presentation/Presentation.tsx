@@ -4,8 +4,11 @@ import styled from "styled-components";
 import { ReactComponent as Blob } from "../../../assets/blob-pres.svg";
 import photo from "../../../assets/NicolasCarrasco.png";
 import cv from "../../../assets/CV.pdf";
+import { useTranslation } from "react-i18next";
 
 const Presentation = () => {
+  const { t } = useTranslation("presentation");
+
   return (
     <Container>
       <InfoWrapper>
@@ -21,15 +24,12 @@ const Presentation = () => {
         </PhotoItemWrapper>
         <PresWrapper>
           <Blob />
-          <PresText>
-            Développeur et étudiant en 4ème année de l’école d’informatique
-            Epitech
-          </PresText>
+          <PresText>{t("careerDescription")}</PresText>
         </PresWrapper>
       </InfoWrapper>
       <CvWrapper>
         <CvFish href={cv} target="_blank" rel="noopener noreferrer">
-          <CvText>Mon Cv</CvText>
+          <CvText>{t("myCv")}</CvText>
         </CvFish>
       </CvWrapper>
     </Container>
