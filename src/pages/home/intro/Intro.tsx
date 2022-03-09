@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import styled from "styled-components";
 
 import waves from "../../../assets/waves.svg";
@@ -8,6 +9,8 @@ type Props = {
 };
 
 const Intro = ({ setLoaded }: Props) => {
+  const { t } = useTranslation("intro");
+
   // Show page only when Waves Svg is loaded
   const image = document.createElement("img");
   image.src = waves;
@@ -18,10 +21,7 @@ const Intro = ({ setLoaded }: Props) => {
   return (
     <Container>
       <Wrapper>
-        <Text>
-          Bienvenue ! Prenez une grande inspiration et venez explorez les
-          profondeurs. Peut-être atteindrez-vous le fond de l’abysse...
-        </Text>
+        <Text>{t("introDescription")}</Text>
         <Waves />
       </Wrapper>
     </Container>
