@@ -3,11 +3,12 @@ import styled from "styled-components";
 
 import { ReactComponent as Blob } from "../../../assets/blob-pres.svg";
 import photo from "../../../assets/NicolasCarrasco.png";
-import cv from "../../../assets/CV.pdf";
+import cvFrench from "../../../assets/CV-French.pdf";
+import cvEnglish from "../../../assets/CV-English.pdf";
 import { useTranslation } from "react-i18next";
 
 const Presentation = () => {
-  const { t } = useTranslation("presentation");
+  const { t, i18n } = useTranslation("presentation");
 
   return (
     <Container>
@@ -28,7 +29,11 @@ const Presentation = () => {
         </PresWrapper>
       </InfoWrapper>
       <CvWrapper>
-        <CvFish href={cv} target="_blank" rel="noopener noreferrer">
+        <CvFish
+          href={i18n.language === "fr" ? cvFrench : cvEnglish}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <CvText>{t("myCv")}</CvText>
         </CvFish>
       </CvWrapper>
