@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import styled from "styled-components";
 
@@ -12,12 +12,15 @@ type Props = {
 const Intro = ({ setLoaded }: Props) => {
   const { t } = useTranslation("intro");
 
-  // Show page only when Waves Svg is loaded
-  const image = document.createElement("img");
-  image.src = waves;
-  image.onload = () => {
-    setLoaded(true);
-  };
+  useEffect(() => {
+    // Show page only when Waves Svg is loaded
+    const image = document.createElement("img");
+    image.src = waves;
+    image.onload = () => {
+      setLoaded(true);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <Container>
