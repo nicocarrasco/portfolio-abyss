@@ -1,0 +1,47 @@
+{
+  "projects": [
+    {
+      "date": "Novembre 2021",
+      "description": "Mission freelance pour <link0>Imparato</link0> afin de mettre en place un système de traduction sur l’application mobile Imparato.",
+      "links": ["https://www.imparato.io/"],
+      "title": "Imparato (mission freelance)"
+    },
+    {
+      "date": "Janvier 2022 - Mars 2022",
+      "description": "Apprentissage et création d'algorithmes de ML en Python uniquement avec les librairies standards ainsi que pandas et numpy.\n\nLes algorithmes que j'ai reproduits sont : Naives Bayes Classifier, Decision Tree Classifier et un Neural Network. Ces algorithmes ont été réalisé en tant que projet d'apprentissage lors de ma 4ème année à Epitech.",
+      "title": "Machine learning (apprentissage)"
+    },
+    {
+      "date": "Novembre 2020 - Juillet 2021",
+      "description": "Stage de 5 mois en alternance puis de 3 mois en temps plein réalisé chez <link0>Imparato</link0>, application visant à aider les comédiens à répéter leurs textes.\n\nOutre la correction de bug et l'amélioration de l'UI/UX, j'ai participé à la création de nouvelles fonctionnalités sur l'app web et mobile comme par exemple <link1>l'ajout de notes et de marque-pages</link1> sur les textes ou encore <link2>l'implémentation des bruitages</link2> sur l'application.\n\nLes technos utilisées étaient React Js et React Native.",
+      "links": [
+        "https://www.imparato.io/",
+        "https://www.imparato.io/blog/prise-de-notes-marque-pages-recherche-dans-le-texte",
+        "https://www.imparato.io/blog/imparato-permet-l-ajout-de-sons-et-bruitages-dans-un-texte"
+      ],
+      "title": "Imparato (stage)"
+    },
+    {
+      "date": "Janvier 2021 - Mars 2021",
+      "description": "Projet réalisé à 6 étudiants pour reproduire le fonctionnement d'un site comme Zapier: permettre à un utilisateur de connecter différents services afin d'automatiser des actions entre elles (par exemple, lorsque l'utilisateur crée une nouvelle PR sur Github, cela crée une nouvelle tâche au nom de la PR sur son Trello).\n\n J'ai travaillé sur l'interface web ainsi que sur le serveur (authentification et webhooks).\n\nLes technos que j'ai utilisées étaient React Js et Node Js.",
+      "title": "Area (apprentissage)"
+    },
+    {
+      "date": "Mars 2020 - Avril 2020",
+      "description": "J'ai développé avec 2 autres étudiants une plateforme de jeu qui peut changer de style graphique en cours de jeu. Les jeux disponibles sont \"Pacman\" et \"Snake\". Les libraries graphiques utilisées sont la SFML, la SDL et la Ncurses.\n\nCe projet a été réalisé en Cpp au cours de la 2ème année à Epitech.",
+      "title": "Arcade (apprentissage)"
+    },
+    {
+      "date": "Septembre 2019 - Décembre 2019",
+      "description": "Stage à temps plein réalisé chez <link0>Sportbak</link0>, application permettant aux joueurs de footsalle de récolter et visualiser leurs stats individuelles et collectives sur un match.\n\nAu cours de mon stage chez Sportbak j'ai travaillé sur la création de ligues et des tournois de footsalle sur l'application ainsi que la visualisation des statistiques des joueurs lors de ces ligues et tournois.\n\nLes technos utilisées étaient Ionic et Angular5.",
+      "links": ["https://sportbak.com/"],
+      "title": "Sportbak (stage)"
+    },
+    {
+      "date": "Juillet 2019",
+      "description": "Stage à temps plein réalisé chez <link0>Hexacoffre</link0>, entreprise de coffre-fort.\n\nLors de ce stage j'ai réalisé un site vitrine pour Hexacoffre spécialement conçu pour présenter ses services à la région Parisienne.\n\nLa techno utilisée était Wordpress.",
+      "links": ["https://www.hexacoffre.com/fr/"],
+      "title": "Hexacoffre (stage)"
+    }
+  ]
+}

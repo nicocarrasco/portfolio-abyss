@@ -6,11 +6,13 @@ import { initReactI18next } from "react-i18next";
 
 import introFr from "./locales/fr/intro.json";
 import presentationFr from "./locales/fr/presentation.json";
+import projectsFr from "./locales/fr/projects.json";
 
 const resources = {
   fr: {
     intro: introFr,
     presentation: presentationFr,
+    projects: projectsFr,
   },
 };
 
