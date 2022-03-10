@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import styled from "styled-components";
 
 import waves from "../../../assets/waves.svg";
+import TranslateSelector from "../../../components/TranslateSelector";
 
 type Props = {
   setLoaded: (loaded: boolean) => void;
@@ -20,22 +21,14 @@ const Intro = ({ setLoaded }: Props) => {
 
   return (
     <Container>
-      <Wrapper>
-        <Text>{t("introDescription")}</Text>
-        <Waves />
-      </Wrapper>
+      <TranslateSelector />
+      <Text>{t("introDescription")}</Text>
+      <Waves />
     </Container>
   );
 };
 
 const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow-x: hidden;
-`;
-
-const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
