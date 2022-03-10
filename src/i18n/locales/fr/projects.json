@@ -1,15 +1,15 @@
 {
   "projects": [
     {
+      "date": "Janvier 2022 - Mars 2022",
+      "description": "Apprentissage et création d'algorithmes de ML en Python uniquement avec les librairies standards ainsi que pandas et numpy.\n\nLes algorithmes que j'ai reproduits sont : Naives Bayes Classifier, Decision Tree Classifier et un Neural Network. Ces algorithmes ont été réalisé en tant que projet d'apprentissage lors de ma 4ème année à Epitech.",
+      "title": "Machine learning (apprentissage)"
+    },
+    {
       "date": "Novembre 2021",
       "description": "Mission freelance pour <link0>Imparato</link0> afin de mettre en place un système de traduction sur l’application mobile Imparato.",
       "links": ["https://www.imparato.io/"],
       "title": "Imparato (mission freelance)"
-    },
-    {
-      "date": "Janvier 2022 - Mars 2022",
-      "description": "Apprentissage et création d'algorithmes de ML en Python uniquement avec les librairies standards ainsi que pandas et numpy.\n\nLes algorithmes que j'ai reproduits sont : Naives Bayes Classifier, Decision Tree Classifier et un Neural Network. Ces algorithmes ont été réalisé en tant que projet d'apprentissage lors de ma 4ème année à Epitech.",
-      "title": "Machine learning (apprentissage)"
     },
     {
       "date": "Novembre 2020 - Juillet 2021",
