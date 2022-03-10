@@ -23,7 +23,8 @@
     },
     {
       "date": "January 2021 - March 2021",
-      "description": "Project made with 6 students to reproduce the operation of a site like Zapier: allow a user to connect different services in order to automate actions between them (for example, when the user creates a new PR on Github, this creates a new task of the name of the PR on his Trello).\n\nI worked on the web interface as well as on the server (authentication and webhooks).\n\nThe technologies I used were React Js and NodeJs.",
+      "description": "Project made with 6 students to reproduce the operation of a site like <link0>Zapier</link0>: allow a user to connect different services in order to automate actions between them (for example, when the user creates a new PR on Github, this creates a new task of the name of the PR on his Trello).\n\nI worked on the web interface as well as on the server (authentication and webhooks).\n\nThe technologies I used were React Js and NodeJs.",
+      "links": ["https://zapier.com/"],
       "title": "Area (learning)"
     },
     {
