@@ -1,0 +1,47 @@
+{
+  "projects": [
+    {
+      "date": "November 2021",
+      "description": "Freelance mission for <link0>Imparato</link0> to set up a translation system on the Imparato mobile application.",
+      "links": ["https://www.imparato.io/"],
+      "title": "Imparato (freelance mission)"
+    },
+    {
+      "date": "January 2022 - March 2022",
+      "description": "Learning and creating ML algorithms in Python only with standard libraries as well as pandas and numpy.\n\nThe algorithms I have reproduced are: Naives Bayes Classifier, Decision Tree Classifier and a Neural Network. These algorithms were made as a learning project during my 4th year at Epitech.",
+      "title": "Machine learning (learning)"
+    },
+    {
+      "date": "November 2020 - July 2021",
+      "description": "Internship of 5 months on a block release training then 3 months full-time at <link0>Imparato</link0>, an application aimed at helping actors rehearse their texts.\n\nIn addition to bug fixing and improving the UI/UX, I participated in the creation of new functionalities on the web and mobile app such as <link1>the addition of notes and bookmarks</link1> on the texts or even <link2>the implementation of sound effects</link2> on the application.\n\nThe technologies used were React Js and React Native.",
+      "links": [
+        "https://www.imparato.io/",
+        "https://www.imparato.io/blog/prise-de-notes-marque-pages-recherche-dans-le-texte",
+        "https://www.imparato.io/blog/imparato-permet-l-ajout-de-sons-et-bruitages-dans-un-texte"
+      ],
+      "title": "Imparato (internship)"
+    },
+    {
+      "date": "January 2021 - March 2021",
+      "description": "Project made with 6 students to reproduce the operation of a site like Zapier: allow a user to connect different services in order to automate actions between them (for example, when the user creates a new PR on Github, this creates a new task of the name of the PR on his Trello).\n\nI worked on the web interface as well as on the server (authentication and webhooks).\n\nThe technologies I used were React Js and NodeJs.",
+      "title": "Area (learning)"
+    },
+    {
+      "date": "March 2020 - April 2020",
+      "description": "I developed with 2 other students a game platform which can change graphic style during the game. The available games are \"Pacman\" and \"Snake\". The graphic libraries used are SFML, SDL and Ncurses.\n\nThis project was carried out in Cpp during the 2nd year at Epitech.",
+      "title": "Arcade (learning)"
+    },
+    {
+      "date": "September 2019 - December 2019",
+      "description": "Full-time internship at <link0>Sportbak</link0>, an application allowing futsal players to collect and view their individual and collective stats of their match.\n\nDuring my internship at Sportbak, I worked on the creation of leagues and football tournaments on the application as well as the visualization of player statistics during these leagues and tournaments.\n\nThe technologies used were Ionic and Angular5.",
+      "links": ["https://sportbak.com/"],
+      "title": "Sportbak (internship)"
+    },
+    {
+      "date": "July 2019",
+      "description": "Full-time internship at <link0>Hexacoffre</link0>, a safe company.\n\nDuring this internship, I created a showcase site for Hexacoffre specially designed to present its services to the Paris region.\n \nThe technology used was Wordpress.",
+      "links": ["https://www.hexacoffre.com/fr/"],
+      "title": "Hexacoffre (internship)"
+    }
+  ]
+}

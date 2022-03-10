@@ -4,15 +4,24 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
-import introFr from "./locales/fr/intro.json";
-import presentationFr from "./locales/fr/presentation.json";
-import projectsFr from "./locales/fr/projects.json";
+import introFR from "./locales/fr/intro.json";
+import presentationFR from "./locales/fr/presentation.json";
+import projectsFR from "./locales/fr/projects.json";
+
+import introEN from "./locales/en/intro.json";
+import presentationEN from "./locales/en/presentation.json";
+import projectsEN from "./locales/en/projects.json";
 
 const resources = {
   fr: {
-    intro: introFr,
-    presentation: presentationFr,
-    projects: projectsFr,
+    intro: introFR,
+    presentation: presentationFR,
+    projects: projectsFR,
+  },
+  en: {
+    intro: introEN,
+    presentation: presentationEN,
+    projects: projectsEN,
   },
 };
 

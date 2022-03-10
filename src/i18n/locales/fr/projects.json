@@ -33,7 +33,7 @@
     },
     {
       "date": "Septembre 2019 - Décembre 2019",
-      "description": "Stage à temps plein réalisé chez <link0>Sportbak</link0>, application permettant aux joueurs de footsalle de récolter et visualiser leurs stats individuelles et collectives sur un match.\n\nAu cours de mon stage chez Sportbak j'ai travaillé sur la création de ligues et des tournois de footsalle sur l'application ainsi que la visualisation des statistiques des joueurs lors de ces ligues et tournois.\n\nLes technos utilisées étaient Ionic et Angular5.",
+      "description": "Stage à temps plein réalisé chez <link0>Sportbak</link0>, application permettant aux joueurs de futsal de récolter et visualiser leurs stats individuelles et collectives sur un match.\n\nAu cours de mon stage chez Sportbak j'ai travaillé sur la création de ligues et des tournois de footsalle sur l'application ainsi que la visualisation des statistiques des joueurs lors de ces ligues et tournois.\n\nLes technos utilisées étaient Ionic et Angular5.",
       "links": ["https://sportbak.com/"],
       "title": "Sportbak (stage)"
     },
