@@ -28,34 +28,11 @@ const competencies: Competencie[] = [
 ];
 
 const Competencies = () => {
-  const rows: JSX.Element[] = [];
-
-  for (let i = 0; i < Math.ceil(competencies.length / 4); i += 1) {
-    const lineCompetencies = competencies.slice(i * 4, i * 4 + 4);
-
-    rows.push(
-      <CompetenciesWrapper>
-        {lineCompetencies.map((lineCompetencie) => (
-          <CompetencieWrapper>
-            <StyledCompetencie
-              src={lineCompetencie.url}
-              alt={lineCompetencie.url}
-              key={lineCompetencie.url}
-              data-tip={lineCompetencie.name}
-              data-for={lineCompetencie.name}
-            />
-            <StyledTooltip id={lineCompetencie.name} effect="solid" />
-          </CompetencieWrapper>
-        ))}
-      </CompetenciesWrapper>
-    );
-  }
-
   return (
     <Container>
       <CompetenciesWrapper>
         {competencies.map((lineCompetencie) => (
-          <CompetencieWrapper>
+          <CompetencieWrapper key={lineCompetencie.name + lineCompetencie.url}>
             <StyledCompetencie
               src={lineCompetencie.url}
               alt={lineCompetencie.url}
